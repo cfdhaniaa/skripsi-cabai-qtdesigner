@@ -21,8 +21,12 @@ buffer = 128
 #colorUpper = (64, 255, 255)
 colorLower = np.array([0, 73, 98], np.uint8)
 colorUpper = np.array([179, 223, 255], np.uint8)
+
+#Finding red color based on HSV color space
 colorLower2 = np.array([0, 153, 128],np.uint8)
 colorUpper2 = np.array([255, 255, 255],np.uint8)
+
+#Finding orange color based on HSV color space
 #colorLower3 = np.array([8, 128, 179],np.uint8)
 #colorUpper3 = np.array([255, 255, 255],np.uint8)
 
